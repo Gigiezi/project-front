@@ -1,3 +1,4 @@
+import PlayButton from "../PlayButton/playButton";
 import styles from "./hitsCover.module.scss";
 import { CoverProp } from "./interface/hitsCover.prop";
 
@@ -19,7 +20,6 @@ const HitsCover = (props: CoverProp) => {
                         <span className={styles.albumInformation}>{props.information}</span>
                     </div>
                 </div>
-                
             </div>
         </div>
     );
