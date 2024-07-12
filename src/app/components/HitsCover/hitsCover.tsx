@@ -20,6 +20,9 @@ const HitsCover = (props: CoverProp) => {
                         <span className={styles.albumInformation}>{props.information}</span>
                     </div>
                 </div>
+                <div className={styles.coverPlayButton}>
+                    <PlayButton value="Play" />
+                </div>
             </div>
         </div>
     );
