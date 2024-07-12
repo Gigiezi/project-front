@@ -1,0 +1,50 @@
+$coverTextColor: #AEAEB2;
+
+.coverWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    max-width: 748px;
+    width: 100%;
+}
+
+.coverTextTittle {
+    font-size: 20px;
+    color: #FEFCFF;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.coverTextUpdated,
+.coverTextReview {
+    color: $coverTextColor;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.coverTextTop {
+    gap: 8px;
+}
+
+.coverTextReview {
+    display: flex;
+    flex-direction: column;
+}
+
+.coverWrapperText,
+.coverTextReview {
+    gap: 28px;
+}
+
+.coverWrapperText,
+.coverTextTop {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
