@@ -1,6 +1,12 @@
 import PlayButton from "../PlayButton/playButton";
 import styles from "./hitsCover.module.scss";
-import { CoverProp } from "./interface/hitsCover.prop";
+
+export interface CoverProp {
+    url: string;
+    updated: string;
+    artist: string;
+    information: string;
+}
 
 const HitsCover = (props: CoverProp) => {
     return (
