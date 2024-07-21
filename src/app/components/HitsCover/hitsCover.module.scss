@@ -9,14 +9,14 @@
 
 .coverTextTittle {
     font-size: 20px;
-    color: #FEFCFF;
+    color: $light-text;
     font-weight: 600;
     line-height: 18px;
 }
 
 .coverTextUpdated,
 .coverTextReview {
-    color: #AEAEB2;
+    color: $light-text;
     font-size: 12px;
     font-weight: 600;
 }
