@@ -1,5 +1,8 @@
-import { PlayProp } from "./interface/playButton.props";
 import styles from "./playButton.module.scss";
+
+export interface PlayProp {
+    value?: "Play" | "";
+}
 
 const PlayButton = (props: PlayProp) => {
     return (
